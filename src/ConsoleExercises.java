@@ -98,12 +98,8 @@ public class ConsoleExercises {
         String lengthPerim = scanner.nextLine();
         int numberLengthPerim = Integer.parseInt( lengthPerim );  // converts a String into an int value
 
-
         System.out.println("The area of your room is: " + numberLength * numberWidth);
         System.out.println("The perimeter of your room is: " + numberWidthPerim * 2 + numberLengthPerim * 2);
-
-
-
 
     }
 }
