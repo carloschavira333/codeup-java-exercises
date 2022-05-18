@@ -81,25 +81,31 @@ public class ConsoleExercises {
 //       perimeter of a rectangle is equal to 2 times the length plus 2 times the width.
 
         // Area: length times width.
-        System.out.print("Enter the width of your room: ");
-        String length = scanner.nextLine();
-        int numberLength = Integer.parseInt( length );  // converts a String into an int value
+//        System.out.print("Enter the width of your room: ");
+//        String length = scanner.nextLine();
+//        int numberLength = Integer.parseInt( length );  // converts a String into an int value
+//
+//        System.out.print("Enter the length of your room: ");
+//        String width = scanner.nextLine();
+//        int numberWidth = Integer.parseInt( width );  // converts a String into an int value
+//
+//        // Perimeter: 2 * length + 2 * width
+//        System.out.print("Enter the width of your room: ");
+//        String widthPerim = scanner.nextLine();
+//        int numberWidthPerim = Integer.parseInt( widthPerim );  // converts a String into an int value
+//
+//        System.out.print("Enter the length of your room: ");
+//        String lengthPerim = scanner.nextLine();
+//        int numberLengthPerim = Integer.parseInt( lengthPerim );  // converts a String into an int value
+//
+//        System.out.println("The area of your room is: " + numberLength * numberWidth);
+//        System.out.println("The perimeter of your room is: " + numberWidthPerim * 2 + numberLengthPerim * 2);
 
-        System.out.print("Enter the length of your room: ");
-        String width = scanner.nextLine();
-        int numberWidth = Integer.parseInt( width );  // converts a String into an int value
-
-        // Perimeter: 2 * length + 2 * width
-        System.out.print("Enter the width of your room: ");
-        String widthPerim = scanner.nextLine();
-        int numberWidthPerim = Integer.parseInt( widthPerim );  // converts a String into an int value
-
-        System.out.print("Enter the length of your room: ");
-        String lengthPerim = scanner.nextLine();
-        int numberLengthPerim = Integer.parseInt( lengthPerim );  // converts a String into an int value
-
-        System.out.println("The area of your room is: " + numberLength * numberWidth);
-        System.out.println("The perimeter of your room is: " + numberWidthPerim * 2 + numberLengthPerim * 2);
+//        int i = 0;
+//        while (i < 10) {
+//            System.out.println("i is " + i);
+//            i++;
+//        }
 
     }
 }
