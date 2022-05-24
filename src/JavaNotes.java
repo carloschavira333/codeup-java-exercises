@@ -1,4 +1,4 @@
-public class Main {
+public class JavaNotes {
     public static void main(String[] args) {
         //declare and initialize a string array
         String[] numArray = {"one","two", "three", "four", "five"};
