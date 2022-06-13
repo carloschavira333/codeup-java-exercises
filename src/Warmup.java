@@ -1,7 +1,12 @@
 public class Warmup {
     public static void main(String[] args) {
-        fizzBuzz(1);
+//        fizzBuzz(1);
+        System.out.println(countWords("abc"));// returns 3
+    }
 
+    public static int countWords(String s){
+        String[] words = s.split("");
+        return words.length;
     }
 
     public static int fizzBuzz(int input){
