@@ -3,11 +3,9 @@ public class Warmup {
         System.out.println(countWords("abc"));// returns 3
         System.out.println(reverse("Today")); // yadseut si yadoT
         System.out.println(checkEnding("abc123","123"));// true
-        System.out.println(triangle(1)); // 1
         System.out.println(triangle(2)); // 3
-        System.out.println(triangle(3)); // 6
-        System.out.println(triangle(4)); // 10
-        System.out.println(triangle(5)); // 15
+        System.out.println(calculator(10, '/', 2));
+
 
     }
 
@@ -30,6 +28,15 @@ public class Warmup {
     public static int triangle(int n){
         if (n==1) return 1;
         return (n + triangle(n - 1));
+    }
+
+    // Create a function that takes two numbers and a mathematical operator and performs a calculation with the two numbers
+
+    public static int calculator(int m, char o, int n){
+        if (o=='/' && n==0) return 0;
+        // booleanExpression ? expression1 : expressioni 2
+        return
+                o=='+' ? m+n : o=='-' ? m-n : o=='*'? m*n: m/n;
     }
 
 }
