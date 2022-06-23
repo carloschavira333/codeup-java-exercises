@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Warmup {
     public static void main(String[] args) {
         System.out.println(countWords("abc"));// returns 3
@@ -5,7 +7,7 @@ public class Warmup {
         System.out.println(checkEnding("abc123","123"));// true
         System.out.println(triangle(2)); // 3
         System.out.println(calculator(10, '/', 2));
-
+        System.out.println(hasVowel("cat")); // true
 
     }
 
@@ -38,5 +40,12 @@ public class Warmup {
         return
                 o=='+' ? m+n : o=='-' ? m-n : o=='*'? m*n: m/n;
     }
+
+    public static boolean hasVowel(String input) {
+
+        return input.toLowerCase().matches(".*[aeiou].*");
+
+    }
+
 
 }
